@@ -23,36 +23,25 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://copr.fedorainfracloud.org/coprs/elxreno/zsync/repo/fedora-%OS_VERSION%/elxreno-zsync-fedora-%OS_VERSION%.repo
       
-    install:
+    install: # See base packages https://github.com/ublue-os/main/blob/main/packages.json
       - micro
       - starship
-
-      - flatpak-spawn
-      - ffmpeg
-      - ffmpeg-libs
-      - ffmpegthumbnailer
+      
       - gcc
       - gparted
-      - heif-pixbuf-loader
-      - libfdk-aac
-      - lshw
-      - net-tools
+      - mc
+      - neofetch
       - pluma
-      - python
       - python3-pip
       - procps-ng
       - rsync
       - samba
       - samba-client
-      - smartmontools
       - syncthing
       - tailscale
-      - traceroute
-      - vim
-      - zstd
       - zsync
       - yt-dlp
-      - wireguard-tools
+   
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -75,18 +64,18 @@ modules:
         - it.mijorus.gearlever
         - org.freac.freac
         - org.kde.kdenlive
+        - org.keepassxc.KeePassXC
         - org.gnome.Boxes
         - org.gnome.Calculator
         - org.gnome.Calendar
         - org.gnome.clocks
         - org.gnome.Contacts
         - org.gimp.GIMP
-        - org.gnome.Gnote
+        - org.gnome.Evince
         - org.gnome.Evolution
         - org.gnome.gedit
-        - org.gnome.Evince
+        - org.gnome.Gnote
         - org.gnome.gThumb
-        - org.gnome.gedit
         - org.gnome.Loupe
         - org.gnome.Maps
         - org.gnome.Papers
