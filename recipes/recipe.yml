@@ -30,7 +30,6 @@ modules:
       - gcc
       - gparted
       - mc
-      - neofetch
       - pluma
       - python3-pip
       - procps-ng
