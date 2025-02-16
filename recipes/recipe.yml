@@ -107,14 +107,14 @@ modules:
   
   - type: gnome-extensions
     install:
-        - 307 # Dash-to-dock
-        - 2 # Frippery Move Clock
-        - 1319 # GSConnect
-        - 6655 # OpenWeather Refined
-        - Frippery Panel Favorites
-        - 6139 # Tailscale QS
-        - 1460 # Vitals
-        - 602 # Window List by fmuellner
+        - 307 # Dash-to-dock https://extensions.gnome.org/extension/307/dash-to-dock/
+        - 2 # Frippery Move Clock https://extensions.gnome.org/extension/2/move-clock/
+        - 1319 # GSConnect https://extensions.gnome.org/extension/1319/gsconnect/
+        - 6655 # OpenWeather Refined https://extensions.gnome.org/extension/6655/openweather/
+        - 4 # Frippery Panel Favorites https://extensions.gnome.org/extension/4/panel-favorites/
+        - 6139 # Tailscale QS https://extensions.gnome.org/extension/6139/tailscale-qs/
+        - 1460 # Vitals https://extensions.gnome.org/extension/1460/vitals/
+        - 602 # Window List by fmuellner https://extensions.gnome.org/extension/602/window-list/
   
   - type: fonts
     fonts:
