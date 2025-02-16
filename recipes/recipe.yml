@@ -20,11 +20,39 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+      - https://copr.fedorainfracloud.org/coprs/elxreno/zsync/repo/fedora-%OS_VERSION%/elxreno-zsync-fedora-%OS_VERSION%.repo
+      
     install:
       - micro
       - starship
 
+      - flatpak-spawn
+      - ffmpeg
+      - ffmpeg-libs
+      - ffmpegthumbnailer
+      - gcc
+      - gparted
+      - heif-pixbuf-loader
+      - libfdk-aac
+      - lshw
+      - net-tools
       - pluma
+      - python
+      - python3-pip
+      - procps-ng
+      - rsync
+      - samba
+      - samba-client
+      - smartmontools
+      - syncthing
+      - tailscale
+      - traceroute
+      - vim
+      - zstd
+      - zsync
+      - yt-dlp
+      - wireguard-tools
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -36,11 +64,71 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
+        - app.fotema.Fotema
         - org.mozilla.firefox
+        - com.github.tchx84.Flatseal
+        - com.github.rafostar.Clapper
+        - com.google.Chrome
+        - com.spotify.Client
+        - com.vixalien.sticky
+        - io.bassi.Amberol
+        - it.mijorus.gearlever
+        - org.freac.freac
+        - org.kde.kdenlive
+        - org.gnome.Boxes
+        - org.gnome.Calculator
+        - org.gnome.Calendar
+        - org.gnome.clocks
+        - org.gnome.Contacts
+        - org.gimp.GIMP
+        - org.gnome.Gnote
+        - org.gnome.Evolution
+        - org.gnome.gedit
+        - org.gnome.Evince
+        - org.gnome.gThumb
+        - org.gnome.gedit
         - org.gnome.Loupe
-      remove:
-        - org.gnome.eog
+        - org.gnome.Maps
+        - org.gnome.Papers
+        - org.gnome.Rhythmbox3
+        - org.gnome.SimpleScan
+        - org.gnome.Snapshot
+        - org.gnome.TextEditor
+        - org.kde.kid3
+        - org.signal.Signal
+        - org.telegram.desktop
+        - org.videolan.VLC
+        
     user: {} # Also add Flathub user repo, but no user packages
+    
+  - type: bling
+    install:
+        - negativo17
+  
+  - type: gnome-extensions
+    install:
+        - 307 # Dash-to-dock
+        - 2 # Frippery Move Clock
+        - 1319 # GSConnect
+        - 6655 # OpenWeather Refined
+        - Frippery Panel Favorites
+        - 6139 # Tailscale QS
+        - 1460 # Vitals
+        - 602 # Window List by fmuellner
+  
+  - type: fonts
+    fonts:
+      google-fonts:
+       - Lato
+       - Merriweather
+       - Montserrat
+       - Oswald
+       - Open Sans
+       - PT Sans
+       - Raleway
+       - Roboto
+       - Slabo
+       - Source Sans 3
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
