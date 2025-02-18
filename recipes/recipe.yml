@@ -57,13 +57,12 @@ modules:
         - com.github.tchx84.Flatseal
         - com.github.rafostar.Clapper
         - com.google.Chrome
+        - com.mattjakeman.ExtensionManager
         - com.spotify.Client
         - com.vixalien.sticky
         - io.bassi.Amberol
         - it.mijorus.gearlever
         - org.freac.freac
-        - org.kde.kdenlive
-        - org.keepassxc.KeePassXC
         - org.gnome.Boxes
         - org.gnome.Calculator
         - org.gnome.Calendar
@@ -83,6 +82,8 @@ modules:
         - org.gnome.Snapshot
         - org.gnome.TextEditor
         - org.kde.kid3
+        - org.kde.kdenlive
+        - org.keepassxc.KeePassXC
         - org.signal.Signal
         - org.telegram.desktop
         - org.videolan.VLC
