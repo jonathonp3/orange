@@ -32,12 +32,14 @@ modules:
       - pluma
       - python3-pip
       - procps-ng
+      - signal
       - samba
       - samba-client
       - syncthing
       - tailscale
-      - zsync
+      - vlc
       - yt-dlp
+      - zsync
    
     remove:
       # example: removing firefox (in favor of the flatpak)
