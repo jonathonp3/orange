@@ -51,6 +51,7 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
+        # silverblue default apps
         - org.gnome.Calendar
         - org.gnome.Characters
         - org.gnome.Connections
@@ -67,7 +68,9 @@ modules:
         - org.gnome.baobab
         - org.gnome.clocks
         - org.gnome.font-viewer
-        
+
+        # additional apps
+        # org.gnome.Boxes
         - org.gnome.Evolution
         - org.gnome.gedit
         - org.gnome.Gnote
@@ -85,9 +88,9 @@ modules:
         - org.kde.kdenlive
         - org.keepassxc.KeePassXC
         - org.mozilla.firefox
-        - org.signal.Signal
+        # org.signal.Signal
         - org.telegram.desktop
-        - org.videolan.VLC
+        # org.videolan.VLC
 
         - com.github.tchx84.Flatseal
         - com.github.rafostar.Clapper
