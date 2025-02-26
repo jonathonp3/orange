@@ -26,10 +26,8 @@ modules:
     install: # See base packages https://github.com/ublue-os/main/blob/main/packages.json
       - micro
       - starship
-      
       - gcc
       - gparted
-      - libreoffice
       - mc
       - pluma
       - python3-pip
