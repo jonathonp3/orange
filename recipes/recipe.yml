@@ -32,12 +32,12 @@ modules:
       - pluma
       - python3-pip
       - procps-ng
-      - signal
       - samba
       - samba-client
       - syncthing
       - tailscale
       - vlc
+      - vlc-plugin-gnome
       - yt-dlp
       - zsync
    
