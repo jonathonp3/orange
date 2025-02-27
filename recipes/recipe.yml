@@ -102,6 +102,7 @@ modules:
         - com.spotify.Client
         - com.vixalien.sticky
         - io.bassi.Amberol
+        - io.github.ungoogled_software.ungoogled_chromium
         - it.mijorus.gearlever
   
   - type: systemd
