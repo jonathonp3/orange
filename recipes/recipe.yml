@@ -78,7 +78,7 @@ modules:
         - org.gnome.Evolution
         - org.gnome.gedit
         - org.gnome.Gnote
-        - org.gnome.gedit
+        # org.gnome.gedit
         - org.gnome.Gnote
         - org.gnome.gThumb
         - org.gnome.Papers
