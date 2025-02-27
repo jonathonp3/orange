@@ -25,8 +25,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/useidel/signal-desktop/repo/fedora-41/useidel-signal-desktop-fedora-41.repo
       
     install: # See base packages https://github.com/ublue-os/main/blob/main/packages.json
-      - micro
-      - starship
+      # micro
+      # starship
       - gcc
       - gparted
       - libreoffice
