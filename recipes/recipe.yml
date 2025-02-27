@@ -30,10 +30,10 @@ modules:
       - gcc
       - gparted
       - libreoffice
-      - mc
+      # mc
       - pluma
-      - python3-pip
-      - procps-ng
+      # python3-pip
+      # procps-ng
       - signal-desktop
       - samba
       - samba-client
