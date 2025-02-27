@@ -101,6 +101,7 @@ modules:
         - com.spotify.Client # Spotify Desktop
         - com.vixalien.sticky # Sticky Notes
         - io.bassi.Amberol # Amberol Music Player
+        - io.github.flattool.Warehouse # App Manager for Flatpak
         - io.github.ungoogled_software.ungoogled_chromium # Ungoogled Chromium
         - it.mijorus.gearlever # Gear Lever Manage AppImages
   
