@@ -56,54 +56,53 @@ modules:
       # If no repo information is specified, Flathub will be used by default
       install:
         # silverblue default apps
-        - org.gnome.Calendar
-        - org.gnome.Characters
-        - org.gnome.Connections
-        - org.gnome.Contacts
-        - org.gnome.Evince
-        # org.gnome.Extensions
-        - org.gnome.Logs
-        - org.gnome.Loupe
-        - org.gnome.Maps
+        - org.gnome.Calculator # Calculator
+        - org.gnome.Calendar # Calendar
+        - org.gnome.Characters # Characters
+        - org.gnome.Connections # Connections
+        - org.gnome.Contacts # Contacts
+        - org.gnome.Evince # Document Viewer
+        # org.gnome.Extensions # Manage GNOME Extensions
+        - org.gnome.Logs # Logs
+        - org.gnome.Loupe # Image Viewer
+        - org.gnome.Maps # Maps
         - org.gnome.NautilusPreviewer
-        - org.gnome.Snapshot
-        - org.gnome.TextEditor
+        - org.gnome.Snapshot # Camera
+        - org.gnome.TextEditor # Text Editor
         - org.gnome.Weather
-        - org.gnome.baobab
+        - org.gnome.baobab # Disk Usage Analyzer
         - org.gnome.clocks
         - org.gnome.font-viewer
 
         # additional apps
-        # org.gnome.Boxes
-        - org.gnome.Evolution
-        # org.gnome.gedit
-        - org.gnome.Gnote
-        - org.gnome.Gnote
-        - org.gnome.gThumb
-        - org.gnome.Papers
-        - org.gnome.Rhythmbox3
-        - org.gnome.SimpleScan
-        - org.gnome.Snapshot
+        # org.gnome.Boxes # Boxes
+        - org.gnome.Evolution # Evolution
+        # org.gnome.gedit # Gedit
+        - org.gnome.Gnote # Gnote
+        - org.gnome.gThumb # gThumb Image Viewer
+        - org.gnome.Papers # Papers
+        - org.gnome.Rhythmbox3 # Rhythmbox
+        - org.gnome.SimpleScan # Document Scanner
         
-        - org.freac.freac 
-        - org.gimp.GIMP
-        - org.kde.kid3
-        - org.kde.kdenlive
-        - org.keepassxc.KeePassXC
-        - org.mozilla.firefox
-        # org.signal.Signal
-        - org.telegram.desktop
-        # org.videolan.VLC
+        - org.freac.freac # fre:ac Audio converter and CD ripper
+        - org.gimp.GIMP # GNU Image Create images and edit photographs
+        - org.kde.kid3 # Kid3
+        - org.kde.kdenlive # Kdenlive
+        - org.keepassxc.KeePassXC # KeePassXC 
+        - org.mozilla.firefox # Firefox Web Browser
+        # org.signal.Signal # Signal Desktop
+        - org.telegram.desktop # Telegram Desktop
+        # org.videolan.VLC # VLC Player
 
-        - com.github.tchx84.Flatseal
-        - com.github.rafostar.Clapper
-        - com.google.Chrome
-        - com.mattjakeman.ExtensionManager
-        - com.spotify.Client
-        - com.vixalien.sticky
-        - io.bassi.Amberol
-        - io.github.ungoogled_software.ungoogled_chromium
-        - it.mijorus.gearlever
+        - com.github.tchx84.Flatseal # Flatseal
+        - com.github.rafostar.Clapper # Clapper
+        - com.google.Chrome # Google CHrome
+        - com.mattjakeman.ExtensionManager # Extension Manager
+        - com.spotify.Client # Spotify Desktop
+        - com.vixalien.sticky # Sticky Notes
+        - io.bassi.Amberol # Amberol Music Player
+        - io.github.ungoogled_software.ungoogled_chromium # Ungoogled Chromium
+        - it.mijorus.gearlever # Gear Lever Manage AppImages
   
   - type: systemd
     system: 
