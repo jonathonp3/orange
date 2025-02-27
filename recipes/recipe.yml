@@ -29,6 +29,7 @@ modules:
       - starship
       - gcc
       - gparted
+      - libreoffice
       - mc
       - pluma
       - python3-pip
