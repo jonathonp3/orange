@@ -88,7 +88,8 @@ modules:
         - org.gimp.GIMP # GNU Image Create images and edit photographs
         - org.kde.kid3 # Kid3
         - org.kde.kdenlive # Kdenlive
-        - org.keepassxc.KeePassXC # KeePassXC 
+        - org.keepassxc.KeePassXC # KeePassXC
+        # org.libreoffice.LibreOffice # The LibreOffice productivity suite
         - org.mozilla.firefox # Firefox Web Browser
         # org.signal.Signal # Signal Desktop
         - org.telegram.desktop # Telegram Desktop
