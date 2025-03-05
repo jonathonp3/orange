@@ -28,6 +28,7 @@ modules:
       # micro
       # starship
       - gcc
+      - gedit
       - gparted
       # libreoffice
       # mc
