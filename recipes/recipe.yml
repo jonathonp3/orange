@@ -63,7 +63,7 @@ modules:
         - org.gnome.Contacts # Contacts
         - org.gnome.Evince # Document Viewer
         # org.gnome.Extensions # Manage GNOME Extensions
-        - org.gnome.Logs # Logs
+        # org.gnome.Logs # Logs
         - org.gnome.Loupe # Image Viewer
         - org.gnome.Maps # Maps
         - org.gnome.NautilusPreviewer
@@ -103,6 +103,7 @@ modules:
         - com.vixalien.sticky # Sticky Notes
         - io.bassi.Amberol # Amberol Music Player
         - io.github.flattool.Warehouse # App Manager for Flatpak
+        - io.gitlab.librewolf-community # A custom version of Firefox, focused on privacy, security and freedom.
         - io.github.ungoogled_software.ungoogled_chromium # Ungoogled Chromium
         - it.mijorus.gearlever # Gear Lever Manage AppImages
   
