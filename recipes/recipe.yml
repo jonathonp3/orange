@@ -96,6 +96,7 @@ modules:
         - org.telegram.desktop # Telegram Desktop
         # org.videolan.VLC # VLC Player
 
+        - com.discordapp.Discord # Messaging, voice and video client
         - com.github.tchx84.Flatseal # Flatseal
         - com.github.rafostar.Clapper # Clapper
         - com.google.Chrome # Google CHrome
