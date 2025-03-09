@@ -28,17 +28,17 @@ modules:
       # micro
       # starship
       - gcc
-      - gedit
+      # gedit
       - gparted
       # libreoffice
       # mc
       - pluma
       # python3-pip
       # procps-ng
-      - signal-desktop
+      # signal-desktop
       - samba
       - samba-client
-      - syncthing
+      # syncthing
       - tailscale
       - vlc
       - vlc-plugin-gnome
